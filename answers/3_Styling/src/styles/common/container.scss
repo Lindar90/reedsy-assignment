@@ -1,0 +1,11 @@
+.container {
+  margin: 0 15px;
+
+  @media screen and (width >= $sm) {
+    margin: 0 30px;
+  }
+
+  @media screen and (width >= $lg) {
+    margin: 0 60px;
+  }
+}

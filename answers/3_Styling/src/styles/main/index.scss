@@ -1,0 +1,17 @@
+@import "featured-book";
+@import "top-voted";
+
+.main {
+  margin-bottom: 40px;
+
+  .container {
+    background-color: $surfaceColor;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    padding: 30px;
+  }
+}

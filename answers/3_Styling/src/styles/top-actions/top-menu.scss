@@ -1,0 +1,28 @@
+.top-actions {
+  .top-menu ul {
+    @media screen and (width < $sm) {
+      display: none;
+    }
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    li {
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+
+      &.active {
+        background-color: $primaryColor;
+        border-radius: 5px;
+        color: $textOnDarkColor;
+      }
+
+      &:hover:not(.active) {
+        color: $primaryColor;
+      }
+    }
+  }
+}

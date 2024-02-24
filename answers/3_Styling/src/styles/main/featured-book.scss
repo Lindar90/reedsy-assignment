@@ -1,0 +1,40 @@
+.featured-book {
+  background-color: $backgroundColor;
+  position: relative;
+  display: grid;
+  padding: 30px;
+
+  @media screen and (width >= $sm) {
+    grid-template-columns: 154px auto;
+    grid-column-gap: 10px;
+  }
+
+  @media screen and (width >= $md) {
+    grid-template-columns: 198px auto;
+    grid-column-gap: 20px;
+  }
+
+  @media screen and (width >= $lg) {
+    grid-template-columns: 245px auto;
+    grid-column-gap: 30px;
+  }
+
+  .recommended {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $primaryColor;
+    color: $textOnDarkColor;
+    padding: 0 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  img {
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .author {
+    margin-bottom: 20px;
+  }
+}

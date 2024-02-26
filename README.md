@@ -10,3 +10,15 @@
 3. Styling
    1. [Code could be found here](./answers/3_Styling)
    2. Page is deployed to Netlify: https://clever-jalebi-d35bc0.netlify.app/
+4. [SPA](./answers/4_SPA/client/README.md)
+   - [X] Created a new Vue 3 project using Vite
+   - [X] Book list view with **pagination**: `${spaUrl}/books`
+   - [X] Synopsis is truncated at 200 characters
+   - [X] Book detail view: `${spaUrl}/books/:slug
+   - [X] Responsive design
+   - [X] **Unit tests** for **composition functions**
+   - [X] **Typescript** usage
+   - [X] **SCSS** usage
+   - [ ] text search on the books list. Might be added via **computed property**
+   - [ ] comments section on the book page
+   - [ ] **E2E tests** with **Cypress**. Usually I add **screenshot tests**.
